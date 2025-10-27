@@ -1,0 +1,30 @@
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+
+# Editor
+.idea/
+# VSCode workspace settings (keep settings.json for format-on-save)
+.vscode/
+!.vscode/settings.json
+
+# Build artifacts
+client/dist/
+server/tmp/
+
+# Data and generated assets
+data.sqlite
+assets/words/*
+!assets/words/words.json
+
