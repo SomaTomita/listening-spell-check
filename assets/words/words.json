@@ -1,0 +1,4460 @@
+[
+  {
+    "en": "accountant",
+    "ja": "会計士",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "acid",
+    "ja": "酸",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "adaptation",
+    "ja": "適応；改作",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "address",
+    "ja": "住所；宛先",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "advertisements",
+    "ja": "広告",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "advisors",
+    "ja": "助言者、顧問",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "agency",
+    "ja": "代理店；機関",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "agriculture",
+    "ja": "農業",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "air conditioning",
+    "ja": "エアコン、空調",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "airport",
+    "ja": "空港",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "alarm system",
+    "ja": "警報システム",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "alternative energy",
+    "ja": "代替エネルギー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "analysis",
+    "ja": "分析",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "anxiety",
+    "ja": "不安；心配",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "appointment",
+    "ja": "予約；面会の約束",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "arrows",
+    "ja": "矢印",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "aspirations",
+    "ja": "熱望、志望",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "assessment",
+    "ja": "評価",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "atlas",
+    "ja": "地図帳",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "attention",
+    "ja": "注意",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "attitude",
+    "ja": "態度",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "aunt",
+    "ja": "おば",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Australia",
+    "ja": "オーストラリア",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "autobiography",
+    "ja": "自伝",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "autumn",
+    "ja": "秋",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "awful",
+    "ja": "ひどい；恐ろしい",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "back",
+    "ja": "背中；後ろ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bakery",
+    "ja": "パン屋",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "balcony",
+    "ja": "バルコニー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "band",
+    "ja": "バンド；帯",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "baseline",
+    "ja": "基準線；基準値",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bay",
+    "ja": "湾",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "beach",
+    "ja": "ビーチ、浜辺",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "beer",
+    "ja": "ビール",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "beetles",
+    "ja": "カブトムシ類；甲虫",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "beginners",
+    "ja": "初心者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "behavior",
+    "ja": "行動、振る舞い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bicycles",
+    "ja": "自転車",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bilingual",
+    "ja": "バイリンガルの",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bill",
+    "ja": "請求書；紙幣",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "biography",
+    "ja": "伝記",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "birds",
+    "ja": "鳥",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bleach",
+    "ja": "漂白剤",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "blindness",
+    "ja": "盲目",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "blond",
+    "ja": "金髪の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "blood",
+    "ja": "血液",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "blue gate",
+    "ja": "青い門",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "boat",
+    "ja": "船",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bones",
+    "ja": "骨",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bonus",
+    "ja": "ボーナス、特典",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bookkeeping",
+    "ja": "簿記",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "booklets",
+    "ja": "小冊子",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "boots",
+    "ja": "ブーツ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "box",
+    "ja": "箱",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "breakfast",
+    "ja": "朝食",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "breathing",
+    "ja": "呼吸",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "breeding",
+    "ja": "繁殖、飼育",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "brick",
+    "ja": "レンガ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bridge",
+    "ja": "橋",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "brushes",
+    "ja": "ブラシ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "buried",
+    "ja": "埋められた",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "bushes",
+    "ja": "茂み",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "business",
+    "ja": "ビジネス、商売",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "butterflies",
+    "ja": "チョウ（複数）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "café",
+    "ja": "カフェ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "calendar",
+    "ja": "カレンダー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "calories",
+    "ja": "カロリー（複数）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "camel",
+    "ja": "ラクダ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "camera",
+    "ja": "カメラ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "campus",
+    "ja": "キャンパス、大学構内",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "canal",
+    "ja": "運河",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "candles",
+    "ja": "ろうそく",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "car",
+    "ja": "車",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "carbon dioxides",
+    "ja": "二酸化炭素",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "card",
+    "ja": "カード",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "carpenters",
+    "ja": "大工",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "carpet",
+    "ja": "カーペット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cash",
+    "ja": "現金",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "castle",
+    "ja": "城",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cattle",
+    "ja": "牛（家畜）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "causes",
+    "ja": "原因",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cave",
+    "ja": "洞窟",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "certificate",
+    "ja": "証明書",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "chain",
+    "ja": "鎖",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "challenge",
+    "ja": "挑戦",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "character",
+    "ja": "性格；登場人物；文字",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "chart",
+    "ja": "図表、チャート",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cheap",
+    "ja": "安い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cheese",
+    "ja": "チーズ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "chemicals",
+    "ja": "化学薬品",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "chemist",
+    "ja": "化学者；薬剤師",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "chicken",
+    "ja": "鶏；鶏肉",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "chocolate",
+    "ja": "チョコレート",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "church",
+    "ja": "教会",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cinema",
+    "ja": "映画館",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cities",
+    "ja": "都市",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clapping",
+    "ja": "拍手",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clarinet",
+    "ja": "クラリネット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clay",
+    "ja": "粘土",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clean",
+    "ja": "清潔な；掃除する",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clear",
+    "ja": "明確な；澄んだ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cliffs",
+    "ja": "崖（複数）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "climate",
+    "ja": "気候",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "closed",
+    "ja": "閉まっている",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clothing",
+    "ja": "衣類",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "clouds",
+    "ja": "雲",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "coconut",
+    "ja": "ココナッツ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "code",
+    "ja": "コード；規則；暗号",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "coffee",
+    "ja": "コーヒー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cognitive",
+    "ja": "認知の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cold",
+    "ja": "寒い；冷たい",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "college",
+    "ja": "大学、短大",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "color",
+    "ja": "色（英式は “colour”）",
+    "tags": [],
+    "variants": [],
+    "spellingMap": {
+      "colour": "color"
+    }
+  },
+  {
+    "en": "combination",
+    "ja": "組み合わせ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "comets",
+    "ja": "彗星",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "comfortable",
+    "ja": "快適な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "commercial",
+    "ja": "商業の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "common",
+    "ja": "一般的な；共通の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "communication",
+    "ja": "コミュニケーション、伝達",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "competition",
+    "ja": "競争；大会",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "complex",
+    "ja": "複雑な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "complicated",
+    "ja": "複雑な；込み入った",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "concentrate",
+    "ja": "集中する",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "concert",
+    "ja": "コンサート",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "concrete",
+    "ja": "コンクリート；具体的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "confidence",
+    "ja": "自信",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "confidential",
+    "ja": "秘密の、機密の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "confusion",
+    "ja": "混乱",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "conservation",
+    "ja": "保護；保存",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "consumption",
+    "ja": "消費",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "control",
+    "ja": "制御",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "convenient",
+    "ja": "便利な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cook",
+    "ja": "料理人",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cooker",
+    "ja": "コンロ、調理器具",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "corn",
+    "ja": "トウモロコシ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cotton",
+    "ja": "綿；木綿",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "country",
+    "ja": "国；田舎",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "court",
+    "ja": "裁判所；コート",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "crime",
+    "ja": "犯罪",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "critical",
+    "ja": "批判的な；重大な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "crow",
+    "ja": "カラス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "culture",
+    "ja": "文化",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "curtains",
+    "ja": "カーテン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "curved",
+    "ja": "曲がった",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "customers",
+    "ja": "顧客",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cuttings",
+    "ja": "切り抜き；挿し木",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "cycling",
+    "ja": "自転車に乗ること",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "damage",
+    "ja": "損害",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "damp",
+    "ja": "湿った",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dark",
+    "ja": "暗い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "decline",
+    "ja": "減少する",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "decoration",
+    "ja": "装飾",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "demand",
+    "ja": "需要",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "density",
+    "ja": "密度",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dentist",
+    "ja": "歯医者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "deposit",
+    "ja": "預金；堆積物；保証金",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "depression",
+    "ja": "うつ病；不況",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "depth",
+    "ja": "深さ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "deserts",
+    "ja": "砂漠",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "designs",
+    "ja": "デザイン；設計図",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "details",
+    "ja": "詳細",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "developed",
+    "ja": "発達した；先進的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "developing",
+    "ja": "発展途上の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "development",
+    "ja": "発展；開発",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dialect",
+    "ja": "方言",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "diameter",
+    "ja": "直径",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "diaries",
+    "ja": "日記",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "diet",
+    "ja": "食事；食生活；ダイエット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "digestion",
+    "ja": "消化",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dining",
+    "ja": "食事",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dinner",
+    "ja": "夕食",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "director",
+    "ja": "監督；取締役",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dirt",
+    "ja": "汚れ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "disabled",
+    "ja": "障がいのある",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "discount",
+    "ja": "割引",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "discussion",
+    "ja": "議論；話し合い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "doctor",
+    "ja": "医者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dogs",
+    "ja": "犬",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "donations",
+    "ja": "寄付",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "driving",
+    "ja": "運転",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "drone",
+    "ja": "ドローン；無人機",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "drought",
+    "ja": "干ばつ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "drugs",
+    "ja": "薬物；麻薬",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "drum",
+    "ja": "太鼓；ドラム",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dry",
+    "ja": "乾いた",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "duck",
+    "ja": "アヒル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "dust",
+    "ja": "ほこり；ちり",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "east",
+    "ja": "東",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "economic",
+    "ja": "経済の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "editor",
+    "ja": "編集者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "education",
+    "ja": "教育",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "effectiveness",
+    "ja": "効果；有効性",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "egg",
+    "ja": "卵",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Egypt",
+    "ja": "エジプト",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "election",
+    "ja": "選挙",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "electrician",
+    "ja": "電気技師",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "electronic",
+    "ja": "電子の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "email",
+    "ja": "電子メール",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "emotional",
+    "ja": "感情的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "emotions",
+    "ja": "感情",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "empathy",
+    "ja": "共感",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "employees",
+    "ja": "従業員",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "end",
+    "ja": "終わる",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "energy",
+    "ja": "エネルギー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "engine",
+    "ja": "エンジン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "entry",
+    "ja": "入場；入口；記入",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "environment",
+    "ja": "環境",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "equipment",
+    "ja": "設備；装備",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "erosion",
+    "ja": "浸食",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "estimate",
+    "ja": "見積もり（名詞）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "European",
+    "ja": "ヨーロッパの；ヨーロッパ人",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "evolution",
+    "ja": "進化",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "exam",
+    "ja": "試験",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "exercises",
+    "ja": "練習；運動",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "expansion",
+    "ja": "拡張；発展",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "expensive",
+    "ja": "高価な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "experimental",
+    "ja": "実験的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "extinct",
+    "ja": "絶滅した",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "extinction",
+    "ja": "絶滅",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "eyes",
+    "ja": "目",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "facilities",
+    "ja": "施設",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "factories",
+    "ja": "工場",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "family",
+    "ja": "家族",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fan",
+    "ja": "ファン；扇風機",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "farm",
+    "ja": "農場",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "farmers",
+    "ja": "農家の人々",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "farming",
+    "ja": "農業",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fashion",
+    "ja": "ファッション；流行",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "father",
+    "ja": "父",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fear",
+    "ja": "恐れ；恐怖",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "feathers",
+    "ja": "羽",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "feedback",
+    "ja": "フィードバック；反応",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "female",
+    "ja": "女性；雌の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fences",
+    "ja": "柵",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fertilizer",
+    "ja": "肥料",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fields",
+    "ja": "畑；分野",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "finance",
+    "ja": "財政；金融",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "firewood",
+    "ja": "薪",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fishing",
+    "ja": "釣り",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fit",
+    "ja": "合う；適している",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fixed action",
+    "ja": "固定的行動",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "flat",
+    "ja": "平らな",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "flavor",
+    "ja": "味；風味（英：flavour）",
+    "tags": [],
+    "variants": [],
+    "spellingMap": {
+      "flavour": "flavor"
+    }
+  },
+  {
+    "en": "flexible",
+    "ja": "柔軟な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "flight",
+    "ja": "飛行；便",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "flood",
+    "ja": "洪水",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "floor",
+    "ja": "床；階",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "flower",
+    "ja": "花",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "food",
+    "ja": "食べ物",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "forest",
+    "ja": "森林",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "form",
+    "ja": "形；用紙",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "frame",
+    "ja": "枠；フレーム",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "framework",
+    "ja": "枠組み；構造",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "France",
+    "ja": "フランス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "free drink",
+    "ja": "無料ドリンク",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "freedom",
+    "ja": "自由",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "freezing",
+    "ja": "凍るように寒い；凍結",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "French",
+    "ja": "フランスの；フランス語",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "frequency",
+    "ja": "頻度；周波数",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fridge",
+    "ja": "冷蔵庫",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "friend",
+    "ja": "友達",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "frog",
+    "ja": "カエル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fuel",
+    "ja": "燃料",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "funding",
+    "ja": "資金提供；財源",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "fungus",
+    "ja": "菌類；カビ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "furniture",
+    "ja": "家具",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "game room",
+    "ja": "ゲーム室、娯楽室",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gap",
+    "ja": "隙間；差；隔たり",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "garage",
+    "ja": "車庫",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "garden",
+    "ja": "庭",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gas",
+    "ja": "ガス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gate",
+    "ja": "門",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gene",
+    "ja": "遺伝子",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "genetical",
+    "ja": "遺伝の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "germs",
+    "ja": "細菌",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gift",
+    "ja": "贈り物；才能",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "glass",
+    "ja": "ガラス；コップ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "global",
+    "ja": "世界的な；地球規模の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "global warming",
+    "ja": "地球温暖化",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gloves",
+    "ja": "手袋",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "government",
+    "ja": "政府",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "graduates",
+    "ja": "卒業生",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "grain patterns",
+    "ja": "木目模様",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "grammar",
+    "ja": "文法",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "grand hotel",
+    "ja": "グランドホテル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "grandparents",
+    "ja": "祖父母",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "grass",
+    "ja": "草",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gravity",
+    "ja": "重力",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "gray",
+    "ja": "灰色（英：grey）",
+    "tags": [],
+    "variants": [],
+    "spellingMap": {
+      "grey": "gray"
+    }
+  },
+  {
+    "en": "ground",
+    "ja": "地面；土地",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "group",
+    "ja": "グループ；集団",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "guard",
+    "ja": "警備員；守る",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "guest",
+    "ja": "客；招待客",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "guide",
+    "ja": "案内人；案内する",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "guitar",
+    "ja": "ギター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "habits",
+    "ja": "習慣",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hairdresser",
+    "ja": "美容師",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hall",
+    "ja": "ホール；玄関；講堂",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "harbor",
+    "ja": "港",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hard",
+    "ja": "難しい；固い；一生懸命に",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "harmful",
+    "ja": "有害な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hat",
+    "ja": "帽子",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "head",
+    "ja": "頭；責任者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "headache",
+    "ja": "頭痛",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "headlight",
+    "ja": "ヘッドライト",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "health",
+    "ja": "健康",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hearing",
+    "ja": "聴覚；公聴会",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "heater",
+    "ja": "ヒーター；暖房機",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "heavy",
+    "ja": "重い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "helicopter",
+    "ja": "ヘリコプター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "helmet",
+    "ja": "ヘルメット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "high temperature",
+    "ja": "高温",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "highway",
+    "ja": "幹線道路；高速道路",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "history",
+    "ja": "歴史",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "holidays",
+    "ja": "休暇",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hospitals",
+    "ja": "病院",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hostel",
+    "ja": "ホステル；安宿",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hotel",
+    "ja": "ホテル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hothouse",
+    "ja": "温室",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "housing",
+    "ja": "住宅；住居供給",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "hypotheses",
+    "ja": "仮説",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "ice age",
+    "ja": "氷河期",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "important",
+    "ja": "重要な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "income",
+    "ja": "収入",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "inconclusive",
+    "ja": "決定的でない",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "India",
+    "ja": "インド",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "infection",
+    "ja": "感染",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "influence",
+    "ja": "影響",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "information",
+    "ja": "情報",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "ingredient",
+    "ja": "材料；成分",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "ink",
+    "ja": "インク",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "innovation",
+    "ja": "革新",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "insects",
+    "ja": "昆虫",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "insurance",
+    "ja": "保険",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "intake",
+    "ja": "摂取；受け入れ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "interests",
+    "ja": "興味；利害",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "international",
+    "ja": "国際的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "internet",
+    "ja": "インターネット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "interview",
+    "ja": "面接；インタビュー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "introductory seminar",
+    "ja": "入門セミナー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "invisible",
+    "ja": "目に見えない",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "iron",
+    "ja": "鉄",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "islands",
+    "ja": "島々",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "jacket",
+    "ja": "ジャケット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "jeans",
+    "ja": "ジーンズ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "jobs",
+    "ja": "仕事",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "July",
+    "ja": "7 月",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "king",
+    "ja": "王",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "kitchen",
+    "ja": "台所",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "knee",
+    "ja": "ひざ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "laboratory",
+    "ja": "実験室、研究所",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "ladder",
+    "ja": "はしご",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lakes",
+    "ja": "湖",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lamp",
+    "ja": "ランプ；照明",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lanes",
+    "ja": "小道；車線",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "language",
+    "ja": "言語",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "leadership",
+    "ja": "指導力；リーダーシップ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "leather",
+    "ja": "革",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "leaves",
+    "ja": "葉",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lecturers",
+    "ja": "講師",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "library",
+    "ja": "図書館",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "license",
+    "ja": "許可証；免許（英：licence)",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lid",
+    "ja": "ふた",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lifespan",
+    "ja": "寿命",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lift",
+    "ja": "エレベーター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "light",
+    "ja": "光；軽い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lighting",
+    "ja": "照明",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "listening",
+    "ja": "聴解；聞くこと",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "literature",
+    "ja": "文学；文献",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "litre",
+    "ja": "リットル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "litter",
+    "ja": "ごみ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "living room",
+    "ja": "居間、リビング",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "location",
+    "ja": "場所；位置",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lock",
+    "ja": "錠；ロックする",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "logo",
+    "ja": "ロゴ；商標",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "London",
+    "ja": "ロンドン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "low impact",
+    "ja": "低影響；低負荷",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lowland",
+    "ja": "低地",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "lunch",
+    "ja": "昼食",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "mammals",
+    "ja": "哺乳類",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "map",
+    "ja": "地図",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "market share",
+    "ja": "市場占有率",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "marriage",
+    "ja": "結婚",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "materials",
+    "ja": "材料；資料",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "maturity",
+    "ja": "成熟",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "May",
+    "ja": "5 月",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "meanings",
+    "ja": "意味",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "media",
+    "ja": "メディア；報道機関",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "meditation",
+    "ja": "瞑想",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "melon",
+    "ja": "メロン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "memory",
+    "ja": "記憶；思い出",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "messy",
+    "ja": "散らかった；乱雑な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "metal work",
+    "ja": "金属加工",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "method",
+    "ja": "方法",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "methodology",
+    "ja": "方法論",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "microscope",
+    "ja": "顕微鏡",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "microwave",
+    "ja": "電子レンジ；マイクロ波",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "migration",
+    "ja": "移動；移住",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "military",
+    "ja": "軍隊の；軍事の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "milk",
+    "ja": "牛乳",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "mirror neurons",
+    "ja": "ミラーニューロン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "moist",
+    "ja": "湿った",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "month",
+    "ja": "月",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "morality",
+    "ja": "道徳；倫理",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "morning",
+    "ja": "朝",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "mountain",
+    "ja": "山",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "mouths",
+    "ja": "口",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "moving",
+    "ja": "動いている；感動的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "mud",
+    "ja": "泥",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "museums",
+    "ja": "博物館",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "mushrooms",
+    "ja": "キノコ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "music",
+    "ja": "音楽",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "new novels",
+    "ja": "新しい小説",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "New Zealand",
+    "ja": "ニュージーランド",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "newspaper",
+    "ja": "新聞",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "night",
+    "ja": "夜",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "noise",
+    "ja": "騒音",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "North",
+    "ja": "北",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "notebook",
+    "ja": "ノート；ノートパソコン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "novices",
+    "ja": "初心者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "numbers",
+    "ja": "数字",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "nursery",
+    "ja": "保育園；苗床",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "nutrients",
+    "ja": "栄養素",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "nuts",
+    "ja": "ナッツ；木の実",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "obesity",
+    "ja": "肥満",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "observation",
+    "ja": "観察",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "October",
+    "ja": "10 月",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "office",
+    "ja": "事務所",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "online",
+    "ja": "オンラインの",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "opera",
+    "ja": "オペラ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "outdoor",
+    "ja": "屋外の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "ovens",
+    "ja": "オーブン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "oxygen",
+    "ja": "酸素",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pacific",
+    "ja": "太平洋；穏やかな",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "painting",
+    "ja": "絵画",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "paper",
+    "ja": "紙；論文",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "parents",
+    "ja": "両親",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "park",
+    "ja": "公園",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "parking",
+    "ja": "駐車",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "participation",
+    "ja": "参加",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "passive",
+    "ja": "受け身の；消極的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "password",
+    "ja": "パスワード",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "patients",
+    "ja": "患者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pay",
+    "ja": "支払う；給料",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "payment",
+    "ja": "支払い",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pencil",
+    "ja": "鉛筆",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pens",
+    "ja": "ペン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "perfume",
+    "ja": "香水",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "permanent",
+    "ja": "永久的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "permit",
+    "ja": "許可証",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "personality",
+    "ja": "性格；人格",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "petrol",
+    "ja": "ガソリン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "phone",
+    "ja": "電話",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "photo",
+    "ja": "写真",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "photography",
+    "ja": "写真撮影",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "physiological",
+    "ja": "生理学的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "piano",
+    "ja": "ピアノ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "picnic",
+    "ja": "ピクニック",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pillow",
+    "ja": "枕",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pizza",
+    "ja": "ピザ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "plane",
+    "ja": "飛行機；平面",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "planning",
+    "ja": "計画",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "plantation",
+    "ja": "プランテーション；大農園",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "plants",
+    "ja": "植物",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "plastic",
+    "ja": "プラスチック",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "play",
+    "ja": "遊ぶ；演奏する；劇",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "playground",
+    "ja": "遊び場；運動場",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "plot",
+    "ja": "筋書き；区画；陰謀",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "poetry",
+    "ja": "詩；詩作",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "poison",
+    "ja": "毒；毒を与える",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "polished",
+    "ja": "磨かれた；洗練された",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "politics",
+    "ja": "政治",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pool",
+    "ja": "プール；水たまり",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "population",
+    "ja": "人口",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "post",
+    "ja": "郵便；投稿；職",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "poster",
+    "ja": "ポスター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "potato",
+    "ja": "ジャガイモ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "poverty",
+    "ja": "貧困",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "power",
+    "ja": "力；電力",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "practical skills",
+    "ja": "実践的スキル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "prediction",
+    "ja": "予測",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pregnant",
+    "ja": "妊娠している",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "preposition",
+    "ja": "前置詞",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "presentation",
+    "ja": "発表；プレゼンテーション",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "pressure",
+    "ja": "圧力；プレッシャー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "prevention",
+    "ja": "予防；防止",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "prices",
+    "ja": "価格",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "primary school",
+    "ja": "小学校",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "prison",
+    "ja": "刑務所",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "problem",
+    "ja": "問題",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "processing",
+    "ja": "処理；加工",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "professional",
+    "ja": "専門的な；専門職の人",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "profit",
+    "ja": "利益",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "programmer",
+    "ja": "プログラマー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "project",
+    "ja": "計画",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "protein",
+    "ja": "タンパク質",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "public transport",
+    "ja": "公共交通機関",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "publications",
+    "ja": "出版物",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "purple",
+    "ja": "紫色",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "quality",
+    "ja": "質；品質",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "quiet",
+    "ja": "静かな",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rabbit",
+    "ja": "ウサギ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "radar",
+    "ja": "レーダー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "radio",
+    "ja": "ラジオ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rain",
+    "ja": "雨",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rainbow",
+    "ja": "虹",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "raincoat",
+    "ja": "レインコート",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rainfall",
+    "ja": "降雨量",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rare",
+    "ja": "珍しい",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rat",
+    "ja": "ネズミ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reception",
+    "ja": "受付；歓迎会",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "receptionist",
+    "ja": "受付係",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "record",
+    "ja": "記録",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rectangular",
+    "ja": "長方形の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "red",
+    "ja": "赤",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reference",
+    "ja": "参照；推薦状",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reflex",
+    "ja": "反射",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "regular",
+    "ja": "規則的な；常連の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "regulation",
+    "ja": "規制；規則",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "relationship",
+    "ja": "関係；人間関係",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "relatives",
+    "ja": "親戚（複数）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reliable",
+    "ja": "信頼できる",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reporter",
+    "ja": "記者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reproduction",
+    "ja": "繁殖；再生産",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reputation",
+    "ja": "評判",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "research",
+    "ja": "研究",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "reservation",
+    "ja": "予約",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "resources",
+    "ja": "資源",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "response",
+    "ja": "反応；応答",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "restaurant",
+    "ja": "レストラン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "retail",
+    "ja": "小売り",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "revenue",
+    "ja": "収益",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rice",
+    "ja": "米",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "risks",
+    "ja": "危険",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rivals",
+    "ja": "競争相手",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "river",
+    "ja": "川",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "road",
+    "ja": "道路",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rocks",
+    "ja": "岩",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "roots",
+    "ja": "根；起源",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "route",
+    "ja": "経路；道筋",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "rubber",
+    "ja": "ゴム",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "safe",
+    "ja": "安全な；金庫",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "safety",
+    "ja": "安全",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "safety regulations",
+    "ja": "安全規則",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sailing",
+    "ja": "航海；ヨット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "salad",
+    "ja": "サラダ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "salary",
+    "ja": "給料",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sales",
+    "ja": "売上；販売",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "salt",
+    "ja": "塩",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sample",
+    "ja": "見本；試料",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sand",
+    "ja": "砂",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "satellites",
+    "ja": "衛星",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Saturday",
+    "ja": "土曜日",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "school",
+    "ja": "学校",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "scientist",
+    "ja": "科学者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Scotland",
+    "ja": "スコットランド",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "screen",
+    "ja": "画面；スクリーン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sea",
+    "ja": "海",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sea levels",
+    "ja": "海面水位",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "seafood",
+    "ja": "魚介類",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "seasoned",
+    "ja": "経験豊富な；味付けされた",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "selection",
+    "ja": "選択；品揃え",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sequence",
+    "ja": "連続；順序",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "serious",
+    "ja": "深刻な；真面目な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "services",
+    "ja": "サービス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sexes",
+    "ja": "性別",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shells",
+    "ja": "貝殻",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shelter",
+    "ja": "避難所",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shipping",
+    "ja": "輸送；船積み",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shoes",
+    "ja": "靴",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shopping",
+    "ja": "買い物",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shopping mall",
+    "ja": "ショッピングモール",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shops",
+    "ja": "店",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "short stories",
+    "ja": "短編小説",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shoulders",
+    "ja": "肩",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "shower",
+    "ja": "シャワー；にわか雨",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "side effects",
+    "ja": "副作用",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "signals",
+    "ja": "信号；合図",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "silk",
+    "ja": "絹；シルク",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "similar",
+    "ja": "似ている",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "site",
+    "ja": "現場；サイト",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "situational",
+    "ja": "状況的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "size",
+    "ja": "サイズ；大きさ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "slaves",
+    "ja": "奴隷",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sliver",
+    "ja": "小片；薄片",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "slow",
+    "ja": "遅い；ゆっくり",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "smartphone",
+    "ja": "スマートフォン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "snake",
+    "ja": "ヘビ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "social",
+    "ja": "社会的な；社交的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "social events",
+    "ja": "社交イベント",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "social workers",
+    "ja": "ソーシャルワーカー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "software",
+    "ja": "ソフトウェア",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "soil damage",
+    "ja": "土壌損害",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "solar",
+    "ja": "太陽の；太陽光の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "soldiers",
+    "ja": "兵士",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "solutions",
+    "ja": "解決策",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sound",
+    "ja": "音；健全な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Spanish",
+    "ja": "スペインの；スペイン語",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "spare components",
+    "ja": "予備部品",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "spears",
+    "ja": "槍",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "special offers",
+    "ja": "特別セール；特価品",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "speed",
+    "ja": "速度",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "spoons",
+    "ja": "スプーン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sports",
+    "ja": "スポーツ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sports center",
+    "ja": "スポーツセンター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "spring",
+    "ja": "春；バネ；湧水",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "stage",
+    "ja": "段階；舞台",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "stamps",
+    "ja": "切手",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "station",
+    "ja": "駅；局",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "statistics",
+    "ja": "統計",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "steam",
+    "ja": "蒸気",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sticks",
+    "ja": "棒；スティック",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "stimulation",
+    "ja": "刺激",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "stimulus",
+    "ja": "刺激",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "stones",
+    "ja": "石",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "storage",
+    "ja": "保管；貯蔵",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "storm",
+    "ja": "嵐",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "story",
+    "ja": "物語；話",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "straight",
+    "ja": "まっすぐな",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "strangers",
+    "ja": "見知らぬ人",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "stream",
+    "ja": "小川；流れ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "structures",
+    "ja": "構造",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "student house",
+    "ja": "学生寮；学生用住宅",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "students",
+    "ja": "学生",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "studio",
+    "ja": "スタジオ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "study",
+    "ja": "勉強；研究；学ぶ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "style",
+    "ja": "スタイル；様式",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "submarines",
+    "ja": "潜水艦",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "success",
+    "ja": "成功",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sugar",
+    "ja": "砂糖",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "summer",
+    "ja": "夏",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sun",
+    "ja": "太陽",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Sunday",
+    "ja": "日曜日",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sunglasses",
+    "ja": "サングラス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "supermarket",
+    "ja": "スーパーマーケット",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "supervision",
+    "ja": "監督；指導",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "surface",
+    "ja": "表面",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "surgery",
+    "ja": "外科；手術",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "surveys",
+    "ja": "調査",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "sustainable",
+    "ja": "持続可能な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "swimming pool",
+    "ja": "プール",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "table",
+    "ja": "テーブル；表",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "table tennis",
+    "ja": "卓球",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tablets",
+    "ja": "錠剤；タブレット端末",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tail",
+    "ja": "尾；しっぽ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tailor",
+    "ja": "仕立て屋；仕立てる",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tape recorder",
+    "ja": "テープレコーダー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tax",
+    "ja": "税金",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "taxi",
+    "ja": "タクシー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "teacher",
+    "ja": "先生",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "teamwork",
+    "ja": "チームワーク",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "teenagers",
+    "ja": "十代の若者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "telephone",
+    "ja": "電話",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "temperature",
+    "ja": "温度；体温",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "temporary",
+    "ja": "一時的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tent",
+    "ja": "テント",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "terminal",
+    "ja": "終点；端末",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "test",
+    "ja": "テスト；試験",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "theater",
+    "ja": "劇場（英：theatre）",
+    "tags": [],
+    "variants": [],
+    "spellingMap": {
+      "theatre": "theater"
+    }
+  },
+  {
+    "en": "theme",
+    "ja": "主題；テーマ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "therapy",
+    "ja": "治療",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "thickness",
+    "ja": "厚さ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "thin",
+    "ja": "薄い；やせた",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "thunderstorm",
+    "ja": "雷雨",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Thursday",
+    "ja": "木曜日",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "time",
+    "ja": "時間",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "toaster",
+    "ja": "トースター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tongue",
+    "ja": "舌；言語",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tools",
+    "ja": "道具",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tourism",
+    "ja": "観光業",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "towels",
+    "ja": "タオル",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "town hall",
+    "ja": "市役所；タウンホール",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "toy",
+    "ja": "おもちゃ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tracking",
+    "ja": "追跡；トラッキング",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "trade routes",
+    "ja": "貿易ルート",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "traditional",
+    "ja": "伝統的な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "traffic",
+    "ja": "交通；渋滞",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "training",
+    "ja": "訓練；研修",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "trains",
+    "ja": "電車",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "transport service",
+    "ja": "交通サービス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "transports",
+    "ja": "輸送",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "trash",
+    "ja": "ごみ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tree",
+    "ja": "木",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "triangle",
+    "ja": "三角形",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tubes",
+    "ja": "管；地下鉄（英）",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "Tuesday",
+    "ja": "火曜日",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "tutor",
+    "ja": "家庭教師；チューター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "type",
+    "ja": "型；種類",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "uncomfortable",
+    "ja": "不快な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "unequal",
+    "ja": "不平等な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "university",
+    "ja": "大学",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "unnatural",
+    "ja": "不自然な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "unnecessary",
+    "ja": "不必要な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "unreliable",
+    "ja": "信頼できない",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "unsuccessful",
+    "ja": "成功しない；不成功な",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "unsure",
+    "ja": "確信がない",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "urban",
+    "ja": "都市の",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "vacation",
+    "ja": "休暇",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "value",
+    "ja": "価値",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "variety",
+    "ja": "多様性；種類",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "vegetable burger",
+    "ja": "野菜バーガー",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "vegetables",
+    "ja": "野菜",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "vegetarian",
+    "ja": "菜食主義者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "version",
+    "ja": "版；バージョン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "video",
+    "ja": "ビデオ；動画",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "video cameras",
+    "ja": "ビデオカメラ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "view",
+    "ja": "見解；景色",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "village",
+    "ja": "村",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "violin",
+    "ja": "バイオリン",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "vision",
+    "ja": "視覚；構想",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "visitors",
+    "ja": "訪問者",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "vocabulary",
+    "ja": "語彙",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "waiter",
+    "ja": "ウェイター",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "waitress",
+    "ja": "ウェイトレス",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wall",
+    "ja": "壁",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "water",
+    "ja": "水",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "water tanks",
+    "ja": "給水タンク",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "waterfall",
+    "ja": "滝",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "weapons",
+    "ja": "武器",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "weather",
+    "ja": "天気",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "website",
+    "ja": "ウェブサイト",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wedding",
+    "ja": "結婚式",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "weeds",
+    "ja": "雑草",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "week",
+    "ja": "週",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "weekend",
+    "ja": "週末",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "weight",
+    "ja": "重さ；体重",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "whale",
+    "ja": "クジラ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wheelchair",
+    "ja": "車椅子",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wheels",
+    "ja": "車輪",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wildlife",
+    "ja": "野生生物",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "winter",
+    "ja": "冬",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "women",
+    "ja": "女性",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wood",
+    "ja": "木材；森",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "wool",
+    "ja": "羊毛；ウール",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "words",
+    "ja": "単語",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "workshop",
+    "ja": "研修会；作業場",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "worms",
+    "ja": "ミミズ；虫",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "yawn",
+    "ja": "あくび",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "year",
+    "ja": "年；年度",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "yoga",
+    "ja": "ヨガ",
+    "tags": [],
+    "variants": []
+  },
+  {
+    "en": "youth",
+    "ja": "若者；若さ",
+    "tags": [],
+    "variants": []
+  }
+]
