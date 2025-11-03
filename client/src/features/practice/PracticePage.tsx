@@ -15,7 +15,7 @@ import {
   Typography,
 } from '@mui/material'
 import { useEffect, useState } from 'react'
-import Countdown from './Countdown'
+import { CountdownScreen, GuardOverlay, ResultOverlay } from './Overlays'
 import { usePractice } from './usePractice'
 
 /**
@@ -160,7 +160,7 @@ export default function PracticePage() {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => {
-              if (e.key === 'Enter' && (e as any).metaKey) {
+              if (e.key === 'Enter' && e.metaKey) {
                 e.preventDefault()
                 e.stopPropagation()
                 handleNext()
@@ -175,98 +175,9 @@ export default function PracticePage() {
         </Box>
       </Card>
 
-      {feedback.open && (
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            pointerEvents: 'auto',
-            zIndex: 1200,
-            background: 'rgba(0,0,0,0.50)',
-          }}
-        >
-          <div
-            style={{
-              textAlign: 'center',
-              padding: '16px 20px',
-              borderRadius: 8,
-              backgroundColor: feedback.correct ? 'rgba(34,197,94,0.2)' : 'rgba(239,68,68,0.2)',
-              border: '1px solid rgba(255,255,255,0.15)',
-              boxShadow: '0 8px 30px rgba(0,0,0,0.25)',
-              animation: `${pop} 360ms ease-out`,
-              maxWidth: 600,
-              width: '100%',
-              margin: '0 auto',
-            }}
-          >
-            <Typography variant="h4" sx={{ textShadow: '0 8px 30px rgba(125,211,252,0.25)' }}>
-              {feedback.correct ? '正解！' : '不正解'}
-            </Typography>
-            <Typography variant="body2" sx={{ display: 'block', mt: 0.5, opacity: 0.95 }}>
-              スペル: {feedback.answer}
-            </Typography>
-            <Typography variant="caption" sx={{ display: 'block', mt: 0.5, opacity: 0.9 }}>
-              <br />
-              Cmd + Enterで次へ
-            </Typography>
-          </div>
-        </div>
-      )}
-      {guardMsg && (
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            pointerEvents: 'auto',
-            zIndex: 1200,
-            background: 'rgba(0,0,0,0.50)',
-          }}
-        >
-          <Typography
-            variant="h5"
-            sx={{
-              px: 3,
-              py: 2,
-              borderRadius: 2,
-              bgcolor: 'rgba(125,211,252,0.15)',
-              border: '1px solid rgba(255,255,255,0.15)',
-              animation: `${pop} 360ms ease-out`,
-              maxWidth: 600,
-              width: '100%',
-              textAlign: 'center',
-              margin: '0 auto',
-            }}
-          >
-            {guardMsg}
-          </Typography>
-        </div>
-      )}
-
-      {/** Countdown overlay full screen with centered content to container width */}
-      {countdown !== null && (
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'rgba(0,0,0,0.50)',
-            zIndex: 1300,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            pointerEvents: 'auto',
-          }}
-        >
-          <div style={{ maxWidth: 600, width: '100%', margin: '0 auto', textAlign: 'center' }}>
-            <Countdown value={countdown} />
-          </div>
-        </div>
-      )}
+      {feedback.open && <ResultOverlay correct={feedback.correct} answer={feedback.answer} />}
+      {guardMsg && <GuardOverlay message={guardMsg} />}
+      {countdown !== null && <CountdownScreen value={countdown} />}
     </PageWrap>
   )
 }

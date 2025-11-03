@@ -31,9 +31,9 @@
 
 - FR-1 ランダム出題: 語彙から 1 語を抽選（重み付け抽出対応、重複許容）。
 - FR-2 音声再生: ローカルサーバの TTS ライブラリで単語を読み上げ。音量/声種選択。再生回数は 1 回。
-- FR-3 入力と採点: 入力欄 1 つ。即時採点（Enter またはボタン）。大文字小文字・ハイフン/スペース揺れ、英/米綴り差異を正規化。
-- FR-4 フィードバック: 正誤表示と正解提示（不正解時は正しいスペルをポップアップ表示）。必要なら意味（ja）と発音再生ボタン。
-- FR-5 連続練習: 正誤後に自動で次の語へ（またはショートカット）。
+- FR-3 入力と採点: 入力欄 1 つ。即時採点（Enter のみ）。大文字小文字・ハイフン/スペース揺れ、英/米綴り差異を正規化。
+- FR-4 フィードバック: 正誤表示と正解のスペルを中央オーバーレイで提示（常に表示）。
+- FR-5 連続練習: 正誤後は Cmd+Enter で次の語へ（ボタンは無し）。
 - FR-6 設定保持: 音声設定（声種/音量）・ダークモードを `localStorage` に保存。
 - FR-7 キーボード: Cmd+R でカウントダウン開始（再生 1 回）、Enter 採点、Cmd+Enter 次へ。
 - FR-9 モチベ管理: 1 日の回答数、連続日数（streak）、今週合計を簡易表示。
@@ -102,11 +102,11 @@ CREATE TABLE IF NOT EXISTS motivation (
 // 1) 出題語選択（直近ミス強調 + 全体ミス考慮）
 //    weight = 1 + min(3, streakWrong) + min(2, totalWrong) + recencyBonus
 //    recencyBonus = last_ts が48h以内なら +1、それ以外 0
-const pickUpWord = async (pool) => {
+const pickUpWord = async pool => {
   // DB: mistakes から該当語の seen, correct, streak_wrong, last_ts を読み込む
   // totalWrong = max(0, seen - correct)
   // weight を計算し、重み付きランダムで1語を返す
-};
+}
 
 // 2) カウントダウン → TTS 再生（単語は 1 回のみ）
 const speakOnce = async (word, { voice, volume }) => {
@@ -114,36 +114,40 @@ const speakOnce = async (word, { voice, volume }) => {
   // フロント: GET /api/tts?text=word&voice=Daniel
   // サーバ: say.export() で一時 wav 生成 → ストリーム返却
   // フロント: Audio で volume 設定し一度だけ再生、再再生は不可
-};
+}
 
 // 3) 採点（正規化 + 綴りゆらぎ）
-const normalize = (s) => {
+const normalize = s => {
   return s
     .trim()
     .toLowerCase()
     .replace(/[\p{P}\p{S}]/gu, '')
-    .replace(/\s+/g, ' ');
-};
+    .replace(/\s+/g, ' ')
+}
 
 const spellingEqual = (input, answer, spellingMap) => {
-  const i = normalize(input);
-  const a = normalize(spellingMap[input] || answer);
-  return i.replace(/[-\s]/g, ' ') === a.replace(/[-\s]/g, ' ');
-};
+  const i = normalize(input)
+  const a = normalize(spellingMap[input] || answer)
+  return i.replace(/[-\s]/g, ' ') === a.replace(/[-\s]/g, ' ')
+}
 
 // 4) 統計更新（SQLite）
 const recordResult = (word, isCorrect) => {
   // DB: mistakes.seen++, correct++, streak_wrong を更新、last_ts=now
   // DB: motivation.today_count++, streak_days/week_total は日付/週の境界で更新
-};
+}
 ```
 
 ### 8. 画面/UX
 
-- 8.1 ホーム: 「今すぐ練習」「設定」「語彙確認」「今日の回数/連続日数」。
-- 8.2 練習画面: 上部にカウントダウン（3-2-1、注記: この単語は 1 回だけ再生されます）/ 中央に入力欄 1 個 / 下部に採点と次へ。
-- 8.3 結果（ポップアップ）: 正誤、正解（不正解時は正しいスペルを強調表示）、発音再生、意味表示、次へ。
-- 8.4 アクセシビリティ: フォーカスリング、ショートカット、読み上げの明示ボタン。
+- 8.1 ホーム: 中央にタイトルと「今すぐ練習」。
+- 8.2 練習画面:
+  - 3-2-1 カウントダウンは画面全体を薄暗くするフルスクリーン・オーバーレイで中央表示（操作ブロック）。
+  - 再生は 1 回のみ。再生ボタンは常時表示だが、再生後の再押下は中央ガードで通知。
+  - 入力は 1 つ。Enter で採点。採点後の Enter は無効（ダブルカウント防止）。
+  - 次へは Cmd+Enter のみ。未採点時はガード表示。
+  - 正誤 + スペルは中央オーバーレイで表示（黒の透過背景、クリック不可）。
+- 8.3 アクセシビリティ: フォーカスリング、キーボードショートカット案内（ノート、結果ポップアップ）。
 
 ### 9. 設定（例）
 
@@ -167,10 +171,10 @@ const recordResult = (word, isCorrect) => {
 - データ: `assets/words.json` のみ。
 - UI フレームワーク: MUI(Material-UI)
 
-#### 11.1 npm インストール（予定）
+#### 11.1 npm インストール
 
 ```bash
-npm install express cors say nanoid better-sqlite3
+npm install express cors say nanoid better-sqlite3 axios
 npm install -D typescript ts-node nodemon @types/node @types/express concurrently
 npm install @mui/material @emotion/react @emotion/styled
 ```
@@ -178,8 +182,9 @@ npm install @mui/material @emotion/react @emotion/styled
 #### 11.2 API エンドポイント
 
 - GET `/api/health` → 200 OK（起動確認）
-- GET `/api/voices` → `{ voices: string[] }`（例: ["Alex","Samantha","Daniel", ...]）
-- GET `/api/tts?text={word}&voice={name}` → audio/wav ストリーム（1 回再生想定）
+- GET `/api/voices` → `{ voices: string[] }`（例: ["Alex","Samantha","Daniel","Serena", ...]）
+- GET `/api/tts?text={word}&voice={name}&speed={0.5..1.5}` → audio/wav ストリーム（1 回再生想定）。
+  - 速度未指定時は 0.9。失敗時は `voice` → `Alex` → 未指定の順でフォールバック。
 - POST `/api/stats/result` → `{ word: string, correct: boolean, ts?: number }` を受け取り、`mistakes` と `motivation` を更新
 - GET `/api/stats/mistakes` → `{ [word: string]: { seen: number, correct: number, streakWrong: number, lastTs?: number } }`
 - GET `/api/stats/motivation` → `{ todayCount: number, streakDays: number, weekTotal: number, lastUpdated: string }`
@@ -224,6 +229,7 @@ spell-practice-listening/
         practice/
           PracticePage.tsx
           Countdown.tsx
+          Overlays.tsx
           usePractice.ts
       lib/
         api.ts
@@ -236,6 +242,10 @@ spell-practice-listening/
   README.md
   .nvmrc                                  # "v22"
 ```
+
+### 商標に関する注意
+
+本プロジェクトは IELTS® および関連団体とは一切関係がありません。IELTS は各権利者の登録商標です。本ツールは学習用途の個人利用を想定した非公式のオープンソース実装です。
 
 ### 13. モチベ統計（仕様）
 
