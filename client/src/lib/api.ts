@@ -5,13 +5,13 @@ import type { MistakesMap, MotivationStats, Word } from './types'
  * Minimal axios wrapper returning JSON.
  */
 async function getJson<T>(url: string): Promise<T> {
-  const r = (await http.get(url)) as any
-  return r.data as T
+  const r = await http.get<T>(url)
+  return r.data
 }
 
-async function postJson<T>(url: string, data: any): Promise<T> {
-  const r = (await http.post(url, data)) as any
-  return r.data as T
+async function postJson<T>(url: string, data: unknown): Promise<T> {
+  const r = await http.post<T>(url, data)
+  return r.data
 }
 
 /**
