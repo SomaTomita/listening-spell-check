@@ -121,14 +121,14 @@ const normalize = (s) => {
   return s
     .trim()
     .toLowerCase()
-    .replace(/[\p{P}\p{S}]/gu, "")
-    .replace(/\s+/g, " ");
+    .replace(/[\p{P}\p{S}]/gu, '')
+    .replace(/\s+/g, ' ');
 };
 
 const spellingEqual = (input, answer, spellingMap) => {
   const i = normalize(input);
   const a = normalize(spellingMap[input] || answer);
-  return i.replace(/[-\s]/g, " ") === a.replace(/[-\s]/g, " ");
+  return i.replace(/[-\s]/g, ' ') === a.replace(/[-\s]/g, ' ');
 };
 
 // 4) 統計更新（SQLite）
@@ -191,8 +191,8 @@ npm install @mui/material @emotion/react @emotion/styled
   "scripts": {
     "dev:server": "nodemon --watch server --exec ts-node server/app.ts",
     "dev:client": "vite",
-    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\""
-  }
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+  },
 }
 ```
 
@@ -201,7 +201,7 @@ npm install @mui/material @emotion/react @emotion/styled
 - サーバ: 500 時は JSON で理由を簡潔返却。TTS 失敗時はフォールバック声種に切替。
 - クライアント: トースト表示（MUI Snackbar）。再試行ボタンなし（1 回再生原則）。
 
-### 12. ディレクトリ構成（案）
+### 12. ディレクトリ構成
 
 ```
 spell-practice-listening/
@@ -209,38 +209,32 @@ spell-practice-listening/
     words/
       words.json                         # 語彙ソース（単一ファイル）
   server/
-    app.ts                             # Express起動 & ルーティング（/api/*）
-    db.ts                              # better-sqlite3 初期化/CRUD
-    tts.ts                             # say連携（TTS合成・一時ファイル管理）
-    tmp/                               # 一時音声（.gitignoreに追加）
+    app.ts                               # Express起動
+    db.ts                                # better-sqlite3 初期化/CRUD
+    routes.ts                            # /api/* ルート
+    tts.ts                               # say連携（TTS合成・一時ファイル管理）
   client/
+    index.html                           # ViteエントリHTML
+    vite.config.ts                       # Vite設定（/api 代理）
     src/
-      main.tsx                           # Viteエントリ
-      App.tsx                            # ルーティング/ページレイアウトの薄いハブ
+      main.tsx
+      App.tsx
+      theme.ts                           # MUIテーマ
       features/
         practice/
-          PracticePage.tsx               # 一問一答画面（入力/採点/次へ）
-          Countdown.tsx                  # 3-2-1 表示（単機能）
-          usePractice.ts                 # 出題/採点/遷移のUIロジック
-        settings/
-          SettingsPage.tsx               # 声種/音量/表記設定
-      components/
-        StatBadge.tsx
-        # Button.tsx, TextInput.tsx などはMUIのコンポーネントを直接使用
+          PracticePage.tsx
+          Countdown.tsx
+          usePractice.ts
       lib/
-        api.ts                           # /api/tts, /api/health, /api/stats など
-        normalize.ts                     # 入力正規化
-        picker.ts                        # 重み付けランダム（pickUpWord を呼ぶ）
-        motivation.ts                    # 今日/連続/週の集計（UI計算補助）
-        storage.ts                       # localStorage ラッパ（設定のみ）
-        types.ts                         # 共通型
-  public/
-    index.html
-  vite.config.ts
-  tsconfig.json
+        api.ts
+        normalize.ts
+        picker.ts
+        storage.ts
+        types.ts
   package.json
-    package-lock.json
-  .nvmrc                                # "22" を記載
+  tsconfig.json
+  README.md
+  .nvmrc                                  # "v22"
 ```
 
 ### 13. モチベ統計（仕様）

@@ -10,8 +10,8 @@
     "strict": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "allowImportingTsExtensions": true
   },
   "include": ["server", "src", "client"]
 }
-
