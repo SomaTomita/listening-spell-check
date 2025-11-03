@@ -6,10 +6,9 @@
   "type": "module",
   "scripts": {
     "dev:server": "nodemon --watch server --exec ts-node --esm server/app.ts",
-    "dev:client": "vite --config client/vite.config.ts --root client",
+    "dev:client": "vite --config client/vite.config.ts client",
     "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
-    "gen:words": "node scripts/gen-words.mjs",
-    "build": "vite build --config client/vite.config.ts --root client",
+    "build": "vite build --config client/vite.config.ts client",
     "format": "prettier -w .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -32,6 +31,7 @@
     "vite": "^7.1.12"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.1.7",
