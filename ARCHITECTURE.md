@@ -2,7 +2,308 @@
 
 > Detailed design and requirements for **IELTS Listening — Spelling Practice**.
 > For an overview, motivation, and screenshots, see the [README](./README.md).
-> Setup is covered in section 11 below. The original requirements doc is kept in Japanese.
+> **English first. 日本語版は下記（Japanese version below）.**
+
+## Requirements Specification
+
+### Overview
+
+- Built from a local server (Node.js + Express) and a frontend (Vite + React). The word list is stored in `assets/words/words.json`.
+- The only exercise is single-item dictation: after a 3-2-1 countdown, one random word is played exactly once; you type it into the input field and it is graded instantly.
+- Settings live in `localStorage`; mistake stats and motivation stats live in `SQLite`. No external network is used.
+
+---
+
+### 1. Goals
+
+- Solve the lack of a fast, repeatable tool focused solely on the IELTS-specific skill of "spelling what you hear in Listening."
+  - Hear the word via local TTS (the `say` library)
+  - Spell it accurately in the input field
+  - Instant grading and light review (pronunciation replay and meaning display)
+
+### 2. Scope
+
+- In scope: the provided English word list (741 words).
+- Out of scope: story generation, long-form reading, external APIs.
+
+### 3. Use Cases
+
+- UC-01: "Start practice" → 3-2-1 countdown to get ready → one random word played once via TTS → input → instant grading → next word → repeat with random playback.
+- UC-02: Weighted re-quizzing of recently missed words.
+- UC-03: Playback count is fixed at 1 (noted during the countdown). Interval adjustment is optional. UK/US spelling is normalized.
+- UC-04: Ephemeral or lightweight records (local only).
+
+### 4. Functional Requirements (FR)
+
+- FR-1 Random questions: draw one word from the vocabulary (supports weighted sampling; duplicates allowed).
+- FR-2 Audio playback: read the word aloud via the local server's TTS library. Volume / voice selection. Playback count is 1.
+- FR-3 Input and grading: a single input field. Instant grading (Enter only). Normalizes case, hyphen/space variation, and UK/US spelling differences.
+- FR-4 Feedback: show the verdict and the correct spelling in a center overlay (always shown).
+- FR-5 Continuous practice: after grading, Cmd+Enter advances to the next word (no button).
+- FR-6 Settings persistence: save audio settings (voice/volume) and dark mode in `localStorage`.
+- FR-7 Keyboard: Cmd+R starts the countdown (one playback), Enter grades, Cmd+Enter advances.
+- FR-9 Motivation management: simple display of today's answer count, streak days, and weekly total.
+- FR-10 Voice list: the server exposes `/api/voices` returning available voices, selectable in the settings UI.
+- FR-11 Stats persistence: store mistake stats and motivation stats in `SQLite`, retrievable/updatable via the API.
+
+### 5. Non-Functional Requirements (NFR)
+
+- NFR-1 Local server: no external network required. Audio is generated via macOS `say` through the local server.
+- NFR-2 Startup < 2s (after the first run). Audio playback latency < 200ms (when queued).
+- NFR-3 Accessibility: screen-reader support, contrast compliance, keyboard operation.
+- NFR-4 Security: data stays on the device only. No external transmission.
+- NFR-5 Portability: primarily targets the latest macOS Safari/Chrome. Windows may be out of scope (future extension).
+
+### 6. Data Model
+
+- Vocabulary (`Word`)
+
+```json
+{
+  "en": "accountant",
+  "ja": "会計士",
+  "tags": ["profession"],
+  "variants": ["accountants"],
+  "spellingMap": { "colour": "color", "theatre": "theater" },
+  "source": "IELTS-list"
+}
+```
+
+- Motivation stats (`MotivationStats`)
+
+```json
+{
+  "todayCount": 37,
+  "streakDays": 5,
+  "weekTotal": 142,
+  "lastUpdated": "2025-10-19"
+}
+```
+
+#### 6.1 DB Schema (SQLite)
+
+```sql
+-- Mistake stats (per-word cumulative + recent trend)
+CREATE TABLE IF NOT EXISTS mistakes (
+  word TEXT PRIMARY KEY,
+  seen INTEGER NOT NULL DEFAULT 0,
+  correct INTEGER NOT NULL DEFAULT 0,
+  streak_wrong INTEGER NOT NULL DEFAULT 0,
+  last_ts INTEGER
+);
+
+-- Motivation stats (managed as a single record)
+CREATE TABLE IF NOT EXISTS motivation (
+  id INTEGER PRIMARY KEY CHECK (id = 1),
+  today_count INTEGER NOT NULL DEFAULT 0,
+  streak_days INTEGER NOT NULL DEFAULT 0,
+  week_total INTEGER NOT NULL DEFAULT 0,
+  last_updated TEXT
+);
+```
+
+### 7. Question / Grading Algorithm (pseudocode)
+
+```ts
+// 1) Pick the question word (emphasize recent misses + overall misses)
+//    weight = 1 + min(3, streakWrong) + min(2, totalWrong) + recencyBonus
+//    recencyBonus = +1 if last_ts is within 48h, otherwise 0
+const pickUpWord = async (pool) => {
+  // DB: read seen, correct, streak_wrong, last_ts for the word from `mistakes`
+  // totalWrong = max(0, seen - correct)
+  // compute weight, return one word via weighted random
+};
+
+// 2) Countdown -> TTS playback (word plays once only)
+const speakOnce = async (word, { voice, volume }) => {
+  // UI: show 3 -> 2 -> 1 (1-second interval)
+  // Frontend: GET /api/tts?text=word&voice=Daniel
+  // Server: generate a temp wav via say.export() -> return as a stream
+  // Frontend: set volume on Audio and play exactly once; no replay
+};
+
+// 3) Grading (normalization + spelling variation)
+const normalize = (s) => {
+  return s
+    .trim()
+    .toLowerCase()
+    .replace(/[\p{P}\p{S}]/gu, '')
+    .replace(/\s+/g, ' ');
+};
+
+const spellingEqual = (input, answer, spellingMap) => {
+  const i = normalize(input);
+  const a = normalize(spellingMap[input] || answer);
+  return i.replace(/[-\s]/g, ' ') === a.replace(/[-\s]/g, ' ');
+};
+
+// 4) Update stats (SQLite)
+const recordResult = (word, isCorrect) => {
+  // DB: increment mistakes.seen, correct, update streak_wrong, last_ts=now
+  // DB: increment motivation.today_count; update streak_days/week_total at day/week boundaries
+};
+```
+
+### 8. Screens / UX
+
+- 8.1 Home: centered title and "Start now" (今すぐ練習).
+- 8.2 Practice screen:
+  - The 3-2-1 countdown is shown centered in a full-screen overlay that dims the whole screen (blocks interaction).
+  - Playback happens once only. The play button is always visible, but pressing it again after playback is reported via a center guard.
+  - One input field. Enter grades. Enter after grading is disabled (prevents double counting).
+  - Advancing is Cmd+Enter only. A guard is shown if not yet graded.
+  - Verdict + spelling are shown in a center overlay (translucent black background, not clickable).
+- 8.3 Accessibility: focus ring, keyboard-shortcut hints (note, result popup).
+
+### 9. Settings (example)
+
+- Audio: voice (UK/US) / volume (0–1). Default voices: US Samantha or UK Daniel (chosen in the UI).
+- Questions: mistake-weighting strength only.
+- Spelling: allow UK/US spelling / allow hyphen and space.
+- Display: dark mode (manual toggle only; no auto switch) / font size.
+
+### 10. Persistence Policy
+
+- Settings: stored in `localStorage` (JSON).
+- Stats: stored in `SQLite` (`better-sqlite3`).
+  - Tables: `mistakes`, `motivation` (schema above).
+  - Read/written via the API; no direct file operations.
+
+### 11. Tech Stack
+
+- Backend (local server): Node.js + Express (TypeScript). Node version: 22.x (pinned via `.nvmrc`).
+- Audio: `say` (wraps macOS `say`) for local synthesis.
+- Frontend: Vite + TypeScript + React.
+- Data: `assets/words/words.json` only.
+- UI framework: MUI (Material-UI).
+
+#### 11.1 npm install
+
+```bash
+npm install express cors say nanoid better-sqlite3 axios
+npm install -D typescript ts-node nodemon @types/node @types/express concurrently
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+#### 11.2 API Endpoints
+
+- GET `/api/health` → 200 OK (startup check)
+- GET `/api/voices` → `{ voices: string[] }` (e.g. ["Alex","Samantha","Daniel","Serena", ...])
+- GET `/api/tts?text={word}&voice={name}&speed={0.5..1.5}` → audio/wav stream (intended to play once).
+  - Default speed is 0.9 when unspecified. On failure, fall back in the order `voice` → `Alex` → unspecified.
+- POST `/api/stats/result` → accepts `{ word: string, correct: boolean, ts?: number }`, updates `mistakes` and `motivation`.
+- GET `/api/stats/mistakes` → `{ [word: string]: { seen: number, correct: number, streakWrong: number, lastTs?: number } }`
+- GET `/api/stats/motivation` → `{ todayCount: number, streakDays: number, weekTotal: number, lastUpdated: string }`
+
+#### 11.3 Dev / Run Scripts (example)
+
+```jsonc
+{
+  "scripts": {
+    "dev:server": "nodemon --watch server --exec ts-node server/app.ts",
+    "dev:client": "vite",
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+  },
+}
+```
+
+> Note: on Node 22 the `ts-node` dev server currently fails to start (see issue #5). Until that is fixed, run the server with `tsx` (e.g. `npx tsx server/app.ts`).
+
+#### 11.4 Error Handling
+
+- Server: on 500, return a concise reason as JSON. On TTS failure, switch to a fallback voice.
+- Client: toast (MUI Snackbar). No retry button (one-playback principle).
+
+### 12. Directory Layout
+
+```
+spell-practice-listening/
+  assets/
+    words/
+      words.json                         # vocabulary source (single file)
+  server/
+    app.ts                               # Express startup
+    db.ts                                # better-sqlite3 init / CRUD
+    routes.ts                            # /api/* routes
+    tts.ts                               # say integration (TTS synthesis, temp-file management)
+  client/
+    index.html                           # Vite entry HTML
+    vite.config.ts                       # Vite config (/api proxy)
+    src/
+      main.tsx
+      App.tsx
+      theme.ts                           # MUI theme
+      features/
+        practice/
+          PracticePage.tsx
+          Countdown.tsx
+          Overlays.tsx
+          usePractice.ts
+      lib/
+        api.ts
+        normalize.ts
+        picker.ts
+        storage.ts
+        types.ts
+  package.json
+  tsconfig.json
+  README.md
+  .nvmrc                                  # "v22"
+```
+
+### Trademark Notice
+
+This project is not affiliated with IELTS® or any related organization. IELTS is a registered trademark of its respective owners. This is an unofficial, open-source implementation intended for personal study.
+
+### 13. Motivation Stats (spec)
+
+- todayCount: +1 on each completed grading. Reset to 0 when the date changes.
+- streakDays: consecutive days. +1 if the last update was yesterday, unchanged if today, reset to 0 after a gap of one or more days.
+- weekTotal: weekly total. Reset to 0 when the ISO week changes.
+- lastUpdated: last update date (`YYYY-MM-DD`).
+
+### 14. Acceptance Criteria (DoD)
+
+- [ ] The 3-2-1 countdown and the "this word plays only once" note are shown, and the word actually plays only once.
+- [ ] Input and grading work for multi-word entries (including spaces and hyphens).
+- [ ] Correctness can be judged while absorbing UK/US spelling differences and hyphen/space variation.
+- [ ] Volume/voice changes take effect immediately.
+- [ ] Settings persist in `localStorage`, and mistake/motivation stats persist and update in `SQLite`.
+
+### 15. Risks / Constraints and Mitigations
+
+- R-1 TTS quality: depends on system voices → support multiple voices; consider future speed adjustment and playback control as separate settings.
+- R-2 Question bias: weighting could become extreme → apply lower/upper bounds and a temperature parameter to spread the distribution.
+- R-3 Multi-word grading: space/hyphen variation → unify via the normalization function (implemented above).
+- R-4 Continuous-practice fatigue: focus drops → optionally enable an auto interval / pomodoro display in settings.
+
+### 16. Import Procedure (vocabulary list)
+
+1. Save the word table into `assets/words/words.json` with the following schema.
+
+```json
+[{ "en": "accountant", "ja": "会計士", "tags": [] }]
+```
+
+2. For multi-word entries, keep `en` as-is (e.g. "air conditioning").
+3. Add known UK/US variations to `spellingMap` (optional).
+
+### 17. Implementation Notes (minimal-code policy)
+
+- Only one input field. Recommend IMEMode=english (surfaced in the UI).
+- Grading is `O(1)`. Share the normalization function.
+- Randomness can be seeded (reproducible retries): `seedrandom` may be used (or a custom Xorshift).
+- Keep shortcuts accessible (add `aria-keyshortcuts` to buttons).
+
+### 18. About the Local DB
+
+- This spec uses `SQLite` to persist stats (mistakes/motivation) on the device.
+
+---
+
+# 日本語版（要件定義）
+
+> 以下は日本語の原文です。
 
 ## IELTS リスニング穴埋め練習アプリ 要件定義
 
