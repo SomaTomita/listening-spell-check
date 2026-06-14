@@ -2,10 +2,12 @@
 
 A local web app that drills the one IELTS skill that quietly costs points: **hearing a word and spelling it correctly**. After a short countdown a word is played **once**, you type it, and you are graded instantly. No account, no network — everything runs on your machine.
 
+> _Personal project · work in progress · macOS only._
+
 ## Why I built this
 
 - I kept losing easy marks to **spelling mistakes in IELTS Listening** — not to comprehension.
-- Similar drills exist on YouTube, but they **move at the video's pace, not mine**. I wanted to repeat on demand and go at my own speed.
+- Similar drills exist on YouTube, but they **move at the video's pace, not mine** — and you end up hand-writing every word you miss. I wanted to repeat on demand, go at my own pace, and let the app remember my mistakes.
 - I couldn't find a single tool focused **only on IELTS Listening spelling** — so I built one.
 
 ## Key features
@@ -42,9 +44,21 @@ A local web app that drills the one IELTS skill that quietly costs points: **hea
 - **Storage:** `localStorage` for settings, `SQLite` (`better-sqlite3`) for stats
 - **Data:** word list in `assets/words/words.json`
 
+## Requirements
+
+macOS (uses the `say` command) · Node 22 (pinned via `.nvmrc`).
+
 ## Documentation
 
 Full requirements, data model, API reference, grading algorithm, and setup: **[ARCHITECTURE.md](./ARCHITECTURE.md)**.
+
+## Word list
+
+The app needs a word list at `assets/words/words.json` to run. I keep a hand-curated set of **741 IELTS Listening words** — want a copy? Email me: **umasotest27@gmail.com**.
+
+## License
+
+Released under the [MIT License](./LICENSE).
 
 ## Trademark notice
 
