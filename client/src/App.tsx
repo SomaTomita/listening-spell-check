@@ -15,7 +15,7 @@ export default function App() {
           <Stack spacing={2}>
             <Stack direction='row' alignItems='center' justifyContent='space-between'>
               <Button variant='text' onClick={() => setMode('home')}>
-                ← ホーム
+                ← Home
               </Button>
               <Typography variant='h5'>IELTS Listening - Spelling Practice</Typography>
               <Box sx={{ width: 64 }} />

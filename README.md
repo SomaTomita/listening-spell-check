@@ -16,6 +16,7 @@ A local web app that drills the one IELTS skill that quietly costs points: **hea
 - ⌨️ **Keyboard‑first** — `Enter` to grade, `⌘ + Enter` for the next word, `⌘ + R` to play.
 - ✅ **Forgiving grading** — case, hyphen/space, and UK/US spelling (colour ↔ color) are normalized before matching.
 - 🔁 **Targets your mistakes** — missed words are weighted to reappear; stats persist in `SQLite`.
+- 📊 **Progress at a glance** — the home screen shows your streak, weekly count, and most-missed words.
 - 🗣️ **Pick voice & volume** — switch between US / UK voices; preferences are saved in `localStorage`.
 - 🌙 **Easy‑on‑the‑eyes dark UI** (MUI).
 
@@ -24,7 +25,7 @@ A local web app that drills the one IELTS skill that quietly costs points: **hea
 |                                 Home                                  |                                   Practice                                    |
 | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
 | <img src="assets/screenshots/home.png" alt="Home screen" width="380"> | <img src="assets/screenshots/practice.png" alt="Practice screen" width="380"> |
-|                           One tap to start                            |                     Voice, volume, and input in one view                      |
+|               Streak, weekly count & most-missed words                |                     Voice, volume, and input in one view                      |
 
 |                                   Countdown                                    |                                  Result — correct                                  |
 | :----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
