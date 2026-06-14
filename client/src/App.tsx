@@ -1,26 +1,23 @@
-import { Box, Button, Container, Stack, Typography } from '@mui/material'
-import { useState } from 'react'
-import PracticePage from './features/practice/PracticePage'
+import { Box, Button, Container, Stack, Typography } from '@mui/material';
+import { useState } from 'react';
+import HomePage from './features/home/HomePage';
+import PracticePage from './features/practice/PracticePage';
 
 export default function App() {
-  const [mode, setMode] = useState<'home' | 'practice'>('home')
+  const [mode, setMode] = useState<'home' | 'practice'>('home');
 
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth='sm'>
       <Stack spacing={3} sx={{ py: 4 }}>
         {mode === 'home' ? (
-          <Stack spacing={3} alignItems="center" justifyContent="center" sx={{ py: 8 }}>
-            <Typography variant="h4" align="center">
-              IELTS Listening - Spelling Practice
-            </Typography>
-            <Button variant="contained" size="large" onClick={() => setMode('practice')}>
-              今すぐ練習
-            </Button>
-          </Stack>
+          <HomePage onStart={() => setMode('practice')} />
         ) : (
           <Stack spacing={2}>
-            <Stack direction="row" alignItems="center" justifyContent="space-between">
-              <Typography variant="h5">IELTS Listening - Spelling Practice</Typography>
+            <Stack direction='row' alignItems='center' justifyContent='space-between'>
+              <Button variant='text' onClick={() => setMode('home')}>
+                ← ホーム
+              </Button>
+              <Typography variant='h5'>IELTS Listening - Spelling Practice</Typography>
               <Box sx={{ width: 64 }} />
             </Stack>
             <PracticePage />
@@ -28,5 +25,5 @@ export default function App() {
         )}
       </Stack>
     </Container>
-  )
+  );
 }
