@@ -5,7 +5,7 @@
   "description": "IELTS listening spelling practice (local server + Vite React TS)",
   "type": "module",
   "scripts": {
-    "dev:server": "nodemon --watch server --exec ts-node --esm server/app.ts",
+    "dev:server": "nodemon --watch server --exec tsx server/app.ts",
     "dev:client": "vite --config client/vite.config.ts client",
     "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
     "build": "vite build --config client/vite.config.ts client",
@@ -26,7 +26,7 @@
     "concurrently": "^9.0.1",
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.0",
     "typescript": "^5.6.3",
     "vite": "^7.1.12"
   },

@@ -181,7 +181,7 @@ const recordResult = (word, isCorrect) => {
 
 ```bash
 npm install express cors say nanoid better-sqlite3 axios
-npm install -D typescript ts-node nodemon @types/node @types/express concurrently
+npm install -D typescript tsx nodemon @types/node @types/express concurrently
 npm install @mui/material @emotion/react @emotion/styled
 ```
 
@@ -200,14 +200,14 @@ npm install @mui/material @emotion/react @emotion/styled
 ```jsonc
 {
   "scripts": {
-    "dev:server": "nodemon --watch server --exec ts-node server/app.ts",
+    "dev:server": "nodemon --watch server --exec tsx server/app.ts",
     "dev:client": "vite",
     "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
   },
 }
 ```
 
-> Note: on Node 22 the `ts-node` dev server currently fails to start (see issue #5). Until that is fixed, run the server with `tsx` (e.g. `npx tsx server/app.ts`).
+> The dev server runs TypeScript directly via `tsx` (esbuild-based), which works on Node 22's ESM loader.
 
 #### 11.4 Error Handling
 
@@ -482,7 +482,7 @@ const recordResult = (word, isCorrect) => {
 
 ```bash
 npm install express cors say nanoid better-sqlite3 axios
-npm install -D typescript ts-node nodemon @types/node @types/express concurrently
+npm install -D typescript tsx nodemon @types/node @types/express concurrently
 npm install @mui/material @emotion/react @emotion/styled
 ```
 
@@ -501,7 +501,7 @@ npm install @mui/material @emotion/react @emotion/styled
 ```jsonc
 {
   "scripts": {
-    "dev:server": "nodemon --watch server --exec ts-node server/app.ts",
+    "dev:server": "nodemon --watch server --exec tsx server/app.ts",
     "dev:client": "vite",
     "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
   },
