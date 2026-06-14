@@ -1,5 +1,5 @@
-import { keyframes } from '@emotion/react'
-import styled from '@emotion/styled'
+import { keyframes } from '@emotion/react';
+import styled from '@emotion/styled';
 import {
   Box,
   Button,
@@ -13,82 +13,82 @@ import {
   TextField,
   Tooltip,
   Typography,
-} from '@mui/material'
-import { useEffect, useState } from 'react'
-import { CountdownScreen, GuardOverlay, ResultOverlay } from './Overlays'
-import { usePractice } from './usePractice'
+} from '@mui/material';
+import { useEffect, useState } from 'react';
+import { CountdownScreen, GuardOverlay, ResultOverlay } from './Overlays';
+import { usePractice } from './usePractice';
 
 /**
  * One-question practice screen: countdown, single playback, input, grading, and next.
  */
 export default function PracticePage() {
-  const { state, setInput, setVoice, setVolume, start, submit, next, canStart } = usePractice()
-  const { current, countdown, input, feedback, voices, settings, note, played } = state
+  const { state, setInput, setVoice, setVolume, start, submit, next, canStart } = usePractice();
+  const { current, countdown, input, feedback, voices, settings, note, played } = state;
 
-  const [guardMsg, setGuardMsg] = useState<string | null>(null)
-  const canGoNext = played && feedback.correct !== null
+  const [guardMsg, setGuardMsg] = useState<string | null>(null);
+  const canGoNext = played && feedback.correct !== null;
   const handleNext = () => {
     if (!canGoNext) {
-      setGuardMsg('先にEnterで採点してください')
-      window.setTimeout(() => setGuardMsg(null), 1400)
-      return
+      setGuardMsg('Press Enter to grade first');
+      window.setTimeout(() => setGuardMsg(null), 1400);
+      return;
     }
-    next()
-  }
+    next();
+  };
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey && (e.key === 'r' || e.key === 'R')) {
-        e.preventDefault()
-        start()
-        return
+        e.preventDefault();
+        start();
+        return;
       }
       if (e.metaKey && e.key === 'Enter') {
-        e.preventDefault()
-        handleNext()
+        e.preventDefault();
+        handleNext();
       }
-    }
-    window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
-  }, [start, handleNext])
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [start, handleNext]);
 
   const Card = styled(Paper)`
     padding: 20px;
     border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02));
-  `
+  `;
   const Note = styled('div')`
     text-align: center;
     opacity: 0.75;
     margin-top: 6px;
     font-size: 12px;
     white-space: pre-line;
-  `
+  `;
   const Actions = styled('div')`
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
     min-height: 40px;
-  `
+  `;
 
   const VOICE_LABEL: Record<string, string> = {
-    Samantha: '英語(US)・女性',
-    Alex: '英語(US)・男性',
-    Daniel: '英語(UK)・男性',
-    Serena: '英語(UK)・女性',
-    Karen: '英語(AU)・女性',
-    Moira: '英語(IE)・女性',
-    Tessa: '英語(ZA)・女性',
-  }
+    Samantha: 'English (US) · Female',
+    Alex: 'English (US) · Male',
+    Daniel: 'English (UK) · Male',
+    Serena: 'English (UK) · Female',
+    Karen: 'English (AU) · Female',
+    Moira: 'English (IE) · Female',
+    Tessa: 'English (ZA) · Female',
+  };
 
-  const labelFor = (v: string) => (VOICE_LABEL[v] ? `${v} (${VOICE_LABEL[v]})` : v)
+  const labelFor = (v: string) => (VOICE_LABEL[v] ? `${v} (${VOICE_LABEL[v]})` : v);
 
   const pop = keyframes`
     0% { transform: scale(0.8); opacity: 0; }
     60% { transform: scale(1.06); opacity: 1; }
     100% { transform: scale(1); opacity: 1; }
-  `
+  `;
 
   const PageWrap = styled('div')`
     position: relative;
@@ -96,7 +96,7 @@ export default function PracticePage() {
     display: flex;
     flex-direction: column;
     gap: 12px;
-  `
+  `;
 
   return (
     <PageWrap>
@@ -104,15 +104,11 @@ export default function PracticePage() {
         <Note>{note}</Note>
       </Box>
 
-      <Stack direction="row" spacing={2} alignItems="center">
-        <FormControl size="small" sx={{ minWidth: 140 }}>
+      <Stack direction='row' spacing={2} alignItems='center'>
+        <FormControl size='small' sx={{ minWidth: 140 }}>
           <InputLabel>Voice</InputLabel>
-          <Select
-            label="Voice"
-            value={settings.voice ?? ''}
-            onChange={e => setVoice(String(e.target.value))}
-          >
-            {(voices.length ? voices : ['Samantha', 'Daniel', 'Alex', 'Serena']).map(v => (
+          <Select label='Voice' value={settings.voice ?? ''} onChange={(e) => setVoice(String(e.target.value))}>
+            {(voices.length ? voices : ['Samantha', 'Daniel', 'Alex', 'Serena']).map((v) => (
               <MenuItem key={v} value={v}>
                 {labelFor(v)}
               </MenuItem>
@@ -120,9 +116,9 @@ export default function PracticePage() {
           </Select>
         </FormControl>
         <Box sx={{ width: 160 }}>
-          <Typography variant="caption">Volume</Typography>
+          <Typography variant='caption'>Volume</Typography>
           <Slider
-            size="small"
+            size='small'
             value={Math.round((settings.volume ?? 1) * 100)}
             onChange={(_, v) => setVolume(Number(v) / 100)}
           />
@@ -131,21 +127,20 @@ export default function PracticePage() {
 
       <Card elevation={0}>
         <Actions>
-          <Tooltip title="Cmd+R">
+          <Tooltip title='Cmd+R'>
             <span>
               <Button
-                variant="contained"
+                variant='contained'
                 onClick={() => {
                   if (played) {
-                    setGuardMsg('この単語は 1 回だけ再生されます')
-                    window.setTimeout(() => setGuardMsg(null), 1400)
+                    setGuardMsg('This word plays only once');
+                    window.setTimeout(() => setGuardMsg(null), 1400);
                   } else {
-                    start()
+                    start();
                   }
                 }}
-                disabled={!canStart}
-              >
-                再生
+                disabled={!canStart}>
+                Play
               </Button>
             </span>
           </Tooltip>
@@ -155,19 +150,19 @@ export default function PracticePage() {
           <TextField
             fullWidth
             autoFocus
-            size="medium"
-            placeholder="タイプして Enter で採点（採点後はCmd + Enterで次へ）"
+            size='medium'
+            placeholder='Type and press Enter to grade (Cmd + Enter for next)'
             value={input}
-            onChange={e => setInput(e.target.value)}
-            onKeyDown={e => {
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
               if (e.key === 'Enter' && e.metaKey) {
-                e.preventDefault()
-                e.stopPropagation()
-                handleNext()
-                return
+                e.preventDefault();
+                e.stopPropagation();
+                handleNext();
+                return;
               }
               if (e.key === 'Enter') {
-                if (feedback.correct === null) submit()
+                if (feedback.correct === null) submit();
               }
             }}
             inputProps={{ 'aria-keyshortcuts': 'Enter' }}
@@ -179,5 +174,5 @@ export default function PracticePage() {
       {guardMsg && <GuardOverlay message={guardMsg} />}
       {countdown !== null && <CountdownScreen value={countdown} />}
     </PageWrap>
-  )
+  );
 }

@@ -54,15 +54,15 @@ export default function HomePage({ onStart }: Props) {
       {loaded && hasActivity && motivation && (
         <Stack spacing={2} sx={{ width: '100%', maxWidth: 420 }}>
           <Stack direction='row' spacing={1} justifyContent='center' flexWrap='wrap' useFlexGap>
-            <Chip label={`今日 ${motivation.todayCount}問`} color='primary' variant='outlined' />
-            <Chip label={`🔥 ${motivation.streakDays}日連続`} color='secondary' variant='outlined' />
-            <Chip label={`今週 ${motivation.weekTotal}問`} variant='outlined' />
+            <Chip label={`Today ${motivation.todayCount}`} color='primary' variant='outlined' />
+            <Chip label={`🔥 ${motivation.streakDays}-day streak`} color='secondary' variant='outlined' />
+            <Chip label={`This week ${motivation.weekTotal}`} variant='outlined' />
           </Stack>
 
           {misses.length > 0 && (
             <Paper elevation={0} sx={{ p: 2, borderRadius: 2, border: '1px solid rgba(255,255,255,0.08)' }}>
               <Typography variant='subtitle2' sx={{ mb: 1.5, opacity: 0.8 }}>
-                よく間違える語
+                Often missed
               </Typography>
               <Stack divider={<Divider flexItem sx={{ borderColor: 'rgba(255,255,255,0.06)' }} />} spacing={1}>
                 {misses.map((r) => (
@@ -75,7 +75,7 @@ export default function HomePage({ onStart }: Props) {
                         </Typography>
                       )}
                       <Typography variant='caption' sx={{ display: 'block', opacity: 0.55 }}>
-                        出題{r.seen}回・{formatDate(r.lastTs)}
+                        seen {r.seen}× · {formatDate(r.lastTs)}
                       </Typography>
                     </Box>
                     <Typography color='error' sx={{ whiteSpace: 'nowrap', fontWeight: 600 }}>
@@ -91,12 +91,12 @@ export default function HomePage({ onStart }: Props) {
 
       {loaded && !hasActivity && (
         <Typography variant='body2' align='center' sx={{ opacity: 0.7 }}>
-          まだ履歴がありません。最初の1問から始めよう！
+          No history yet — start with your first word!
         </Typography>
       )}
 
       <Button variant='contained' size='large' onClick={onStart}>
-        今すぐ練習
+        Start practice
       </Button>
     </Stack>
   );
