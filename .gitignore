@@ -26,5 +26,4 @@ server/tmp/
 # Data and generated assets
 data.sqlite
 assets/words/*
-!assets/words/words.json
-
+!assets/words/.gitkeep
